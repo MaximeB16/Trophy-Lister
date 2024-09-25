@@ -1,0 +1,55 @@
+.ajout{
+    background: linear-gradient(90deg, #8800ff, #a90089, #1e00ff, #a90089, #8800ff);
+    border-radius: 5rem;
+    border: none;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    margin: 0.5rem;
+    width: 100%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 10rem); /* Prendre la largeur restante, en enlevant la largeur de la nav bar */
+    height: 100%;
+    padding: 1rem;
+    margin-left: 7rem; /* Ajouter une marge pour ne pas que le contenu chevauche la nav bar */
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 2.5rem;
+    background-color: #8800ff;
+    width: 100%;
+    height: 100%; /* 50% de la hauteur disponible */
+    margin-bottom: 1rem;
+}
+form{
+    height: 60%;
+}
+.boutons{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    font-size: 5rem;
+}
+.inform{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+input{
+    border-radius: 5rem;
+    border: none;
+    width: 30rem;
+    background-color: white;
+    color: #8800ff;
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}

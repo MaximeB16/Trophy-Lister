@@ -1,0 +1,111 @@
+h1 {
+    font-size: 3rem; /* Réduire la taille pour s'adapter à la `smallBox` */
+    margin: 0 1rem; /* Espacement horizontal */
+    color: white; /* Couleur du texte */
+}
+p{
+    font-size: 2rem;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 10rem); /* Prendre la largeur restante, en enlevant la largeur de la nav bar */
+    height: 100%;
+    padding: 1rem;
+    margin-left: 7rem; /* Ajouter une marge pour ne pas que le contenu chevauche la nav bar */
+}
+.largeBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 2.5rem;
+    background-color: #8800ff;
+    width: 100%;
+    height: 50%; /* 50% de la hauteur disponible */
+    margin-bottom: 1rem;
+}
+.sousLargebox {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; /* Assure que les deux conteneurs sont centrés verticalement */
+}
+
+.sousLargeboxP {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Sépare verticalement les éléments */
+    align-items: center; /* Centre horizontalement les éléments */
+    text-align: center; /* Centre le texte horizontalement */
+    height: 100%; /* Assure que le conteneur prend la hauteur disponible */
+}
+
+.sousLargeboxP p {
+    margin: 0.5rem 0; /* Ajuste les marges autour des paragraphes */
+}
+
+.smallBox {
+    background-color: #8800ff;
+    padding: 1rem;
+    border-radius: 5rem;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Centrer les éléments verticalement */
+    justify-content: space-between; /* Ajouter un espacement égal entre les éléments */
+}
+
+.sansPhoto {
+    background-color: #1e00ff;
+    border-radius: 1rem;
+    margin-left: 2rem;
+    width: 15%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /* Pour s'assurer que l'image ne dépasse pas */
+}
+
+.sansPhoto img {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 75%; /* Pour rendre l'image circulaire si elle est carrée */
+}
+.resteDiv {
+    width: 40%; /* Ajuste la largeur pour s'adapter à la smallBox */
+    display: flex;
+    justify-content: center; /* Centrer verticalement les éléments */
+    flex-direction: column;
+    align-items: center; /* Centrer horizontalement le texte */
+    margin-right: 1rem; /* Réduire la marge pour mieux s'adapter */
+    text-align: center; /* Aligner le texte au centre */
+}
+
+.resteDiv p {
+    margin: 0.2rem 0; /* Réduire les marges verticales pour rapprocher les éléments */
+    color: white; /* Couleur du texte */
+}
+.smallBox a{
+    background-color: #1e00ff;
+    border-radius: 5rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ajout{
+    background: linear-gradient(90deg, #8800ff, #a90089, #1e00ff, #a90089, #8800ff);
+    border-radius: 5rem;
+    border: none;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.largeBox h1{
+    font-size: 7rem;
+}
