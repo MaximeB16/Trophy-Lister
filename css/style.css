@@ -103,3 +103,7 @@ nav {
     padding-top: 60px;
     transition: left 0.5s ease;
 }
+#btnCompte{
+    width: 4rem;
+    height: 4rem;
+}

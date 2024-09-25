@@ -1,0 +1,88 @@
+h1 {
+    font-size: 3rem; /* Réduire la taille pour s'adapter à la `smallBox` */
+    margin: 0 1rem; /* Espacement horizontal */
+    color: white; /* Couleur du texte */
+}
+p{
+    font-size: 1rem;
+}
+.container {
+    display: flex;
+    flex-direction: column; /* Empile les largeBox verticalement */
+    width: calc(100% - 10rem); /* La largeur reste calculée par rapport à la nav */
+    padding: 1rem;
+    margin-left: 7rem; /* Espace par rapport à la nav */
+    border-radius: 2.5rem;
+    height: auto; /* Assure que la hauteur s'ajuste automatiquement */
+}
+.largeBox {
+    display: flex;
+    flex-direction: column; /* Empile les éléments verticalement */
+    align-items: center;
+    justify-content: flex-start; /* Laisse l'espace se remplir à partir du haut */
+    width: 100%;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem; /* Ajouté pour assurer un peu d'espace en bas */
+    height: 100%;
+}
+
+.sousLargebox {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; /* Assure que les éléments sont centrés verticalement */
+    margin-bottom: 1rem; /* Ajoute un espacement entre les sous-boxes */
+}
+
+.ajout{
+    background: linear-gradient(90deg, #8800ff, #a90089, #1e00ff, #a90089, #8800ff);
+    border-radius: 5rem;
+    border: none;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+}
+
+.largeBox h1{
+    font-size: 4rem;
+}
+
+img{
+    width: 2rem;
+    height: 2rem;
+}
+.commentaire{
+    background-color: #1e00ff;
+    border-radius: 5rem;
+    padding: 1rem;
+    margin: 1rem;
+}
+.entete{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+.footerCom{
+    width:90%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.identite{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.pdp{
+    width: 5rem;
+    height: 5rem;
+}
+#titre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
