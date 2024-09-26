@@ -32,7 +32,6 @@ p{
     justify-content: space-between;
     align-items: center; /* Assure que les deux conteneurs sont centrés verticalement */
 }
-
 .sousLargeboxP {
     display: flex;
     flex-direction: column;
@@ -41,11 +40,9 @@ p{
     text-align: center; /* Centre le texte horizontalement */
     height: 100%; /* Assure que le conteneur prend la hauteur disponible */
 }
-
 .sousLargeboxP p {
     margin: 0.5rem 0; /* Ajuste les marges autour des paragraphes */
 }
-
 .smallBox {
     background-color: #8800ff;
     padding: 1rem;
@@ -56,7 +53,6 @@ p{
     align-items: center; /* Centrer les éléments verticalement */
     justify-content: space-between; /* Ajouter un espacement égal entre les éléments */
 }
-
 .sansPhoto {
     background-color: #1e00ff;
     border-radius: 1rem;
@@ -68,7 +64,6 @@ p{
     align-items: center;
     overflow: hidden; /* Pour s'assurer que l'image ne dépasse pas */
 }
-
 .sansPhoto img {
     max-width: 100%;
     max-height: 100%;
@@ -83,7 +78,6 @@ p{
     margin-right: 1rem; /* Réduire la marge pour mieux s'adapter */
     text-align: center; /* Aligner le texte au centre */
 }
-
 .resteDiv p {
     margin: 0.2rem 0; /* Réduire les marges verticales pour rapprocher les éléments */
     color: white; /* Couleur du texte */
@@ -105,7 +99,6 @@ p{
     text-align: center;
     text-decoration: none;
 }
-
 .largeBox h1{
     font-size: 7rem;
 }

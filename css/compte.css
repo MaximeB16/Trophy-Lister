@@ -1,0 +1,65 @@
+h1{
+    font-size: 4rem;
+}
+p{
+    font-size: 2rem;
+}
+.smallBox a{
+    background-color: #1e00ff;
+    border-radius: 5rem;
+    width: 2rem;
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 10rem); /* Prendre la largeur restante, en enlevant la largeur de la nav bar */
+    height: 100%;
+    padding: 1rem;
+    margin-left: 7rem; /* Ajouter une marge pour ne pas que le contenu chevauche la nav bar */
+}
+.largeBox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 2.5rem;
+    background-color: #8800ff;
+    width: 100%;
+    height: 50%; /* 50% de la hauteur disponible */
+    margin-bottom: 1rem;
+}
+.sousLargebox {
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; /* Assure que les deux conteneurs sont centrés verticalement */
+}
+
+.smallBox {
+    background-color: #8800ff;
+    padding: 1rem;
+    border-radius: 5rem;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrer les éléments verticalement */
+    justify-content: space-between; /* Ajouter un espacement égal entre les éléments */
+    margin-top: 1rem;
+}
+
+.entete{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+}
+
+#imgpseudo{
+    display: flex;
+    justify-content: flex-start;
+}

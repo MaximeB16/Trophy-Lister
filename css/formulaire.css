@@ -28,7 +28,7 @@
     margin-bottom: 1rem;
 }
 form{
-    height: 60%;
+    height: 80%;
 }
 .boutons{
     display: flex;
@@ -43,7 +43,7 @@ label{
     justify-content: space-between;
     width: 80%;
 }
-input{
+input, textarea{
     border-radius: 5rem;
     border: none;
     width: 30rem;
@@ -52,4 +52,8 @@ input{
     padding: 1rem;
     font-size: 2rem;
     font-weight: bold;
+}
+textarea{
+    height: 25rem;
+    padding: 2rem;
 }
